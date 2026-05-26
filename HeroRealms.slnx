@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="HeroRealms.Console/HeroRealms.Console/HeroRealms.Console.csproj" />
+  <Project Path="HeroRealms.Core/HeroRealms.Core/HeroRealms.Core.csproj" />
+</Solution>
