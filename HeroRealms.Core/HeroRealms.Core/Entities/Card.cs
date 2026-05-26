@@ -9,5 +9,7 @@ namespace HeroRealms.Core.Entities
         public string Name { get; set; } = string.Empty; 
         public int Cost { get; set; } 
         public string Faction { get; set; } = string.Empty; 
+        public List<Effect> BaseEffects { get; set; } = new();
+        public List<Effect> SynergyEffects { get; set; } = new();
     }
 }
