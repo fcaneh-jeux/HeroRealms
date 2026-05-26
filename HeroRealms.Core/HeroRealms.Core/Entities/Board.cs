@@ -7,6 +7,6 @@ namespace HeroRealms.Core.Entities
     public class Board 
     { 
         public List<Card> PersistentCards { get; set; } = new(); 
-        public List<Champion> Champions { get; set; } = new(); 
+        public List<ChampionCard> Champions { get; set; } = new(); 
     }
 }
