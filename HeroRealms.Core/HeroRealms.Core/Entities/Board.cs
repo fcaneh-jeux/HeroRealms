@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using HeroRealms.Core.Entities.Cards;
 
 namespace HeroRealms.Core.Entities
 {
