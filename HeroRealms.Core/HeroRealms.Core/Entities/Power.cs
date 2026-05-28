@@ -10,5 +10,7 @@ namespace HeroRealms.Core.Entities
         public string Name { get; set; } = string.Empty; 
         public PowerUsageType UsageType { get; set; } 
         public bool IsCastable { get; set; } = true; 
+        public List<Effect> Effects { get; set; } = new();
+        public int Cost {  get; set; }
     }
 }

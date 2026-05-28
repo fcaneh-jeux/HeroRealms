@@ -8,5 +8,7 @@ namespace HeroRealms.Core.Entities
     public class ConditionalEffect : Effect 
     { 
         public ConditionEffectType Condition { get; set; } 
+        public CardType CardTypeToCount { get; set; }
+        public int MinimumCardCount { get; set; }
     }
 }
