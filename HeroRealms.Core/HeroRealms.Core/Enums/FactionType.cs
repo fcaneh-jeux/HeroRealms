@@ -9,6 +9,7 @@ namespace HeroRealms.Core.Enums
         Imperial,
         Wild,
         Necros,
-        Guild
+        Guild,
+        Hero
     }
 }

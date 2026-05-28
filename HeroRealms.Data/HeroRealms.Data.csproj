@@ -10,8 +10,4 @@
     <ProjectReference Include="..\HeroRealms.Core\HeroRealms.Core\HeroRealms.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Cards\" />
-  </ItemGroup>
-
 </Project>

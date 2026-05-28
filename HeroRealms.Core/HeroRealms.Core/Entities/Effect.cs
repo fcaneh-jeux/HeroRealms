@@ -7,7 +7,7 @@ namespace HeroRealms.Core.Entities
 {
     public class Effect
     {
-        public EffectType Type { get; set; }
+        public EffectType EffectType { get; set; }
         public int Value { get; set; }
     }
 }

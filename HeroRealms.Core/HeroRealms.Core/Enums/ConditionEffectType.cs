@@ -7,9 +7,11 @@ namespace HeroRealms.Core.Enums
     public enum ConditionEffectType
     {
         SameFactionPlayed,
+        SameCardTypePlayed,
         ChampionControlled,
         LowHealth,
         EnemyChampionPresent,
-
+        ChampionAlreadyExhausted,
+        AtLeastXCardsOfTypeInPlay
     }
 }

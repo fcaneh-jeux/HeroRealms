@@ -1,0 +1,110 @@
+Étape 1 — Stabiliser le domaine
+
+Finir :
+
+HeroDefinition
+WizardHero
+Card
+ActionCard
+ChampionCard
+ArtifactCard
+Effect
+ConditionalEffect
+Power
+
+Objectif :
+
+toutes les cartes du Wizard peuvent être décrites
+
+Étape 2 — Définir toutes les cartes du Wizard
+
+Créer :
+
+Or
+Chat
+Bâton de feu
+Composants de sort
+Embraser
+
+Objectif :
+
+avoir un deck complet et cohérent
+Étape 3 — Moteur de partie minimal
+
+Créer :
+
+Game
+Turn
+Player
+
+Et gérer :
+
+piocher
+jouer une carte
+ChoiceEffect 
+ciblage des effets
+réduction de coût conditionnelle
+dégâts à soi-même (SelfDamage)
+défausser
+fin de tour
+
+((
+Effets simples
+- Damage
+- Heal
+- Draw
+- Gold
+
+Effets conditionnels
+- ConditionalEffect
+
+Effets à choix
+- ChoiceEffect
+
+Ciblage
+- EnemyPlayer
+- FriendlyPlayer
+- Champion
+- AllEnemyChampions
+- AllFriendlyChampions
+))
+Sans interface.
+
+Console uniquement.
+
+Étape 4 — Résolution des effets
+
+Pouvoir jouer :
+
+Gold
+Damage
+Heal
+Draw
+Étape 5 — Gestion des synergies
+
+Là on revisitera sûrement :
+
+ConditionEffectType
+
+qui deviendra probablement :
+
+Condition
+
+plus flexible.
+
+Étape 6 — Champions
+
+Gestion :
+
+Defense
+Guard
+Exhausted
+Réactivation
+Étape 7 — Autres héros
+
+Quand Wizard tourne :
+
+Cleric
+Warrior
+Ranger
+etc.

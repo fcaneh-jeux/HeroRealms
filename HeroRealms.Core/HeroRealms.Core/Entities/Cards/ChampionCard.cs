@@ -7,7 +7,7 @@ namespace HeroRealms.Core.Entities.Cards
 {
     public class ChampionCard : Card
     {
-        public int Health { get; set; }
+        public int Shield { get; set; }
         public bool IsGuard { get; set; }
         public bool IsExhausted { get; set; }
         public override CardType CardType => CardType.Champion;

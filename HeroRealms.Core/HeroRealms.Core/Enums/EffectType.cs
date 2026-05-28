@@ -7,6 +7,7 @@ namespace HeroRealms.Core.Enums
     public enum EffectType
     {
         Damage,
+        SelfDamage,
         Heal,
         Draw,
         Gold,
@@ -14,6 +15,8 @@ namespace HeroRealms.Core.Enums
         Discard,
         Stun,
         Sacrifice,
-        Prepare
+        Prepare,
+        HeroCostReduction,
+        ActionCostReduction,
     }
 }

@@ -13,5 +13,7 @@ namespace HeroRealms.Core.Entities.Cards
         public List<Effect> BaseEffects { get; set; } = new();
         public List<ConditionalEffect> SynergyEffects { get; set; } = new();
         public abstract CardType CardType { get; }
+        public List<CardTag> Tags { get; set; } = new();
     }
 }
+
